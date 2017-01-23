@@ -1,5 +1,5 @@
 var expect = require("chai").expect;
-var testObj = require("../app/hello");
+var testObj = require("./hello");
 
 describe("Returns the correct welcome message", function(){
   it("returns hello", function() {
