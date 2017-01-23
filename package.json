@@ -9,7 +9,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec"
+    "test": "mocha $(find . -name '*.spec.js' ! -ipath '*node_modules*')"
   },
   "repository": {
     "type": "git",
