@@ -1,0 +1,24 @@
+{
+  "name": "webtasks",
+  "version": "1.0.0",
+  "description": "A simple project to test Webtask.io with Travis.ci with a JS app",
+  "main": "hello.js",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefan-cross/webtasks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stefan-cross/webtasks/issues"
+  },
+  "homepage": "https://github.com/stefan-cross/webtasks#readme"
+}
